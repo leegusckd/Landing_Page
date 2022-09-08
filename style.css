@@ -1,0 +1,40 @@
+body {
+    font-style: #f9faf8;
+}
+
+ul.hl {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description {
+    font-size: 18px;
+    width: 400px;
+}
+
+button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.darkblue {
+    height: 250px;
+    background: #1f2937;
+    color: white;
+}
